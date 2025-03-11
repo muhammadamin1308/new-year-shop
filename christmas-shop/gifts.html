@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gifts</title>
+    <link rel="stylesheet" href="../styles/gifts.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar-container">
+        <div class="navbar">
+          <a href="index.html"
+            ><img class="nav-img" src="../images/logo.png" alt="logo"
+          /></a>
+          <nav>
+            <ul class="nav-links">
+              <li class="nav-active"><a href="gifts.html">GIFTS</a></li>
+              <li class="deactive"><a href="index.html#about">ABOUT</a></li>
+              <li class="deactive"><a href="index.html#best">BEST</a></li>
+              <li class="deactive"><a href="gifts.html#footer">CONTACTS</a></li>
+            </ul>
+          </nav>
+          <div class="burger" id="burger">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="menu" id="menu">
+      <a href="gifts.html">GIFTS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="index.html#best">BEST</a>
+      <a href="index.html#footer">CONTACTS</a>
+    </div>
+
+    <main>
+      <div class="h1">
+        <h1 class="h-1">Achieve health, harmony, and inner strength</h1>
+      </div>
+      <div class="tags">
+        <nav class="tags-nav">
+          <div id="category-cards"></div>
+        </nav>
+      </div>
+      <section class="best-gifts container">
+        <!-- <div class="cards" id="all-gifts">
+
+        </div> -->
+        
+        <div class=" cards items-container" id="items-container"></div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row-1">
+          <div class="footer-col-3 col">
+            <img src="../images/footer/santa-claus.svg" alt="santa-claus" />
+            <p>
+              <a class="action-large" href="tel:+375(29)111-22-33"
+                >+375 (29) 111-22-33</a
+              >
+            </p>
+            <p class="h-3">CALL US</p>
+          </div>
+          <div class="footer-col-3 col">
+            <img
+              src="../images/footer/christmas-tree.svg"
+              alt="christmas-tree"
+            />
+            <a
+              class="action-large"
+              onclick="window.open(`https://maps.app.goo.gl/gzn2TLNMCPiXa9oH9`)"
+              >MAGIC FOREST</a
+            >
+            <p class="h-3">MEET US</p>
+          </div>
+          <div class="footer-col-3 col">
+            <img src="../images/footer/snake.svg" alt="snake" />
+            <a class="action-large" href="mailto:GIFTS@MAGIC.COM"
+              >GIFTS@MAGIC.COM</a
+            >
+            <p class="h-3">WRITE US</p>
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="socials">
+            <img src="../images/socials/telegram.svg" alt="telegram" />
+            <img src="../images/socials/facebook.svg" alt="facebook" />
+            <img src="../images/socials/instagram.svg" alt="instagram" />
+            <img src="../images/socials/x.svg" alt="x" />
+          </div>
+          <p class="paragraph" style="padding: 12px 0">
+            © Copyright 2025, All Rights Reserved
+          </p>
+          <p class="caption">Made in Rolling Scopes School</p>
+        </div>
+      </div>
+      <button id="scrollToTopButton"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 5V19" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </button>
+    </footer>
+    <script src="../gifts.js"></script>
+  </body>
+</html>

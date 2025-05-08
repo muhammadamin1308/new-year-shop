@@ -15,6 +15,7 @@ menu.addEventListener("click", (e) => {
     document.body.classList.remove("no-scroll");
   }
 });
+
 // SLIDER
 let slider = document.querySelector(".slider-container");
 backBtn = document.querySelector("#back-btn");
